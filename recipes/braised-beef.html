@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Braised Beef</title>
+    <style>
+      .icon {
+        width: 1.15rem;
+        height: 1.15rem;
+        vertical-align: -0.125em;
+      }
+      .root {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem;
+        background-color: #f1f1f1;
+        border-bottom: 1px solid #ddd;
+      }
+      .container {
+        display: flex;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 4rem;
+        padding-left: 8rem;
+        padding-right: 8rem;
+        margin-top: 6rem;
+        margin-bottom: 4rem;
+        text-align: justify;
+      }
+      .recipe {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        gap: 4rem;
+      }
+      .ingredients {
+        width: 50%;
+        display: flex;
+        justify-content: start;
+        padding-left: 8rem;
+      }
+      .steps {
+        width: 50%;
+        display: block;
+        text-align: justify;
+        padding-right: 8rem;
+      }
+      .card-picture {
+        border-radius: 0.75rem;
+        border-width: 1px;
+        border-color: rgb(31 41 55);
+        border-style: solid;
+      }
+      .recipe-link {
+        color: #1c1c1c;
+        text-decoration-line: none;
+      }
+      .recipe-link:hover {
+        color: #656565;
+        text-decoration-line: underline;
+      }
+
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6,
+      p {
+        margin: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="root">
+      <h1>Braised Beef</h1>
+      <div class="container">
+        <img
+          class="card-picture"
+          alt="Braised Beef"
+          src="../assets/braised.webp"
+        />
+        <h4 class="">Description</h4>
+        <p class="">
+          An elevated version of homestyle pot roast, this braised beef is
+          hearty and full of earthy richness. It would pair well with mashed
+          potatoes, buttery noodles, or crusty bread.
+        </p>
+      </div>
+      <div class="recipe">
+        <div class="ingredients">
+          <h3>Ingredients</h3>
+          <ul>
+            <li>3 ½ pounds boneless beef chuck roast</li>
+            <li>5 teaspoons kosher salt, divided</li>
+            <li>2 ½ teaspoons freshly ground black pepper, divided</li>
+            <li>2 teaspoons garlic powder</li>
+            <li>4 teaspoons olive oil</li>
+            <li>2 tablespoons butter</li>
+            <li>1 medium onion, chopped</li>
+            <li>1 pound cremini mushrooms, halved</li>
+            <li>3 medium carrots, cut into 2 inch pieces</li>
+            <li>1 head garlic, cut in half lengthwise</li>
+            <li>1 cup red wine</li>
+            <li>3 sprigs thyme</li>
+            <li>2 bay leaves</li>
+            <li>2 teaspoons Worcestershire</li>
+            <li>2 cups beef broth, or more as needed</li>
+            <li>2 tablespoons chopped fresh parsley</li>
+          </ul>
+        </div>
+        <div class="steps">
+          <h3>Steps</h3>
+          <ol>
+            <li>
+              Gather all ingredients and preheat the oven to 350 degrees F (175
+              degrees C).
+            </li>
+            <li>
+              Season beef pieces evenly on all sides with 3 1/2 teaspoons salt,
+              2 teaspoons pepper, and garlic powder.
+            </li>
+            <li>
+              Heat oil in a large skillet over high heat. Add beef, reduce heat
+              to medium high and cook, undisturbed until it releases easily from
+              the skillet and a golden brown crust has formed, about 4 minutes.
+              Flip pieces and continue to cook until browned on all sides.
+              Remove meat from the pan and set aside.
+            </li>
+            <li>
+              Return skillet to medium-high heat and add 2 tablespoons butter to
+              the drippings in the pan. When butter has melted add onion,
+              mushrooms and carrots and cook 5 minutes, stirring often, scraping
+              to release any browned bits from the bottom. Add garlic and cook
+              for 1 minute.
+            </li>
+            <li>
+              Stir in wine and scrape to release any more bits from the pan.
+              Return the meat to the pan, along with any accumulated juices and
+              add thyme, bay leaves and Worcestershire.
+            </li>
+            <li>
+              Pour in beef broth just enough that it comes up 2/3 of the way up
+              on the beef (do not fully submerge the meat in liquid). Bring the
+              mixture to a simmer.
+            </li>
+            <li>
+              Cover and place in preheated oven until meat is very tender, 2 to
+              2 1/2 hours.
+            </li>
+            <li>Serve and enjoy.</li>
+          </ol>
+        </div>
+      </div>
+
+      <a href="/odin-recipes/index.html" class="recipe-link"
+        >Browse more recipes</a
+      >
+    </div>
+  </body>
+</html>

@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Harvest Salmon Bowls</title>
+    <style>
+      .icon {
+        width: 1.15rem;
+        height: 1.15rem;
+        vertical-align: -0.125em;
+      }
+      .root {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem;
+        background-color: #f1f1f1;
+        border-bottom: 1px solid #ddd;
+      }
+      .container {
+        display: flex;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 4rem;
+        padding-left: 8rem;
+        padding-right: 8rem;
+        margin-top: 6rem;
+        margin-bottom: 4rem;
+        text-align: justify;
+      }
+      .recipe {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        gap: 4rem;
+      }
+      .ingredients {
+        width: 50%;
+        display: flex;
+        justify-content: start;
+        padding-left: 8rem;
+      }
+      .steps {
+        width: 50%;
+        display: block;
+        text-align: justify;
+        padding-right: 8rem;
+      }
+      .card-picture {
+        border-radius: 0.75rem;
+        border-width: 1px;
+        border-color: rgb(31 41 55);
+        border-style: solid;
+      }
+      .recipe-link {
+        color: #1c1c1c;
+        text-decoration-line: none;
+      }
+      .recipe-link:hover {
+        color: #656565;
+        text-decoration-line: underline;
+      }
+
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6,
+      p {
+        margin: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="root">
+      <h1>Harvest Salmon Bowls</h1>
+      <div class="container">
+        <img
+          class="card-picture"
+          alt="Harvest Salmon Bowls"
+          src="../assets/salmon.webp"
+        />
+        <h4 class="">Description</h4>
+        <p class="">
+          For these salmon harvest bowls, broccoli and Brussels sprouts are
+          roasted on a sheet pan with salmon, then served in a bowl with quinoa,
+          feta, cranberries, and pistachios, a perfect bowl of fall flavors.
+        </p>
+      </div>
+      <div class="recipe">
+        <div class="ingredients">
+          <h3>Ingredients</h3>
+          <ul>
+            <li>4 (6 ounce) salmon filets</li>
+            <li>3 tablespoons spicy brown mustard</li>
+            <li>1 1/2 tablespoons honey</li>
+            <li>1/2 tablespoon lemon juice</li>
+            <li>1/2 cup olive oil</li>
+            <li>1/4 cup maple syrup</li>
+            <li>1 tablespoon apple cider vinegar</li>
+            <li>6 cloves garlic, minced</li>
+            <li>1/4 teaspoon salt</li>
+            <li>1/2 teaspoon freshly ground black pepper</li>
+            <li>1 head broccoli, separated into florets</li>
+            <li>16 ounces Brussels sprouts, halved</li>
+            <li>4 cups cooked quinoa</li>
+            <li>4 ounces feta cheese, crumbled</li>
+            <li>1/2 cup dried cranberries</li>
+            <li>1/3 cup chopped pistachios</li>
+          </ul>
+        </div>
+        <div class="steps">
+          <h3>Steps</h3>
+          <ol>
+            <li>
+              Preheat the oven to 400 degrees F (200 degrees C). Line a baking
+              sheet with parchment paper.
+            </li>
+            <li>
+              In a small bowl combine mustard, honey, and lemon juice; set
+              aside.
+            </li>
+            <li>
+              Combine olive oil, maple syrup, apple cider vinegar, garlic, salt,
+              and pepper in a large bowl. Add in broccoli and Brussels sprouts;
+              toss until coated. Spread evenly onto the prepared sheet pan.
+            </li>
+            <li>
+              Roast in the preheated oven for 20 minutes. Remove pan from oven,
+              toss vegetables, and spread out again. Place salmon filets onto
+              sheet pan with vegetables, skin side down. Brush salmon with
+              mustard mixture
+            </li>
+            <li>
+              Return to the oven; roast until fish flakes easily with a fork, 12
+              to 15 minutes.
+            </li>
+            <li>
+              Place 1 cup quinoa and a salmon filet in each serving bowl. Evenly
+              divide vegetables into bowls and top with feta cheese,
+              cranberries, and pistachios.
+            </li>
+          </ol>
+        </div>
+      </div>
+
+      <a href="/odin-recipes/index.html" class="recipe-link"
+        >Browse more recipes</a
+      >
+    </div>
+  </body>
+</html>

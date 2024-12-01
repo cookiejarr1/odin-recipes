@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Baked Ziti</title>
+    <style>
+      .icon {
+        width: 1.15rem;
+        height: 1.15rem;
+        vertical-align: -0.125em;
+      }
+      .root {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem;
+        background-color: #f1f1f1;
+        border-bottom: 1px solid #ddd;
+      }
+      .container {
+        display: flex;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 4rem;
+        padding-left: 8rem;
+        padding-right: 8rem;
+        margin-top: 6rem;
+        margin-bottom: 4rem;
+        text-align: justify;
+      }
+      .recipe {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        gap: 4rem;
+      }
+      .ingredients {
+        width: 50%;
+        display: flex;
+        justify-content: start;
+        padding-left: 8rem;
+      }
+      .steps {
+        width: 50%;
+        display: block;
+        text-align: justify;
+        padding-right: 8rem;
+      }
+      .card-picture {
+        border-radius: 0.75rem;
+        border-width: 1px;
+        border-color: rgb(31 41 55);
+        border-style: solid;
+      }
+      .recipe-link {
+        color: #1c1c1c;
+        text-decoration-line: none;
+      }
+      .recipe-link:hover {
+        color: #656565;
+        text-decoration-line: underline;
+      }
+
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6,
+      p {
+        margin: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="root">
+      <h1>Baked Ziti</h1>
+      <div class="container">
+        <img class="card-picture" alt="Baked Ziti" src="../assets/baked.webp" />
+        <h4 class="">Description</h4>
+        <p class="">
+          This baked ziti is always a hit! A lady I worked with brought this in
+          one day, and everyone loved it. Now it is the favorite of all my
+          dinner guests. I have made this also without the meat, and it is well
+          received.
+        </p>
+      </div>
+      <div class="recipe">
+        <div class="ingredients">
+          <h3>Ingredients</h3>
+          <ul>
+            <li>1 pound dry ziti pasta</li>
+            <li>1 onion, chopped</li>
+            <li>1 pound lean ground beef</li>
+            <li>2 (26 ounce) jars spaghetti sauce</li>
+            <li>6 ounces provolone cheese, sliced</li>
+            <li>1 ½ cups sour cream</li>
+            <li>6 ounces mozzarella cheese, shredded</li>
+            <li>2 tablespoons grated Parmesan cheese</li>
+          </ul>
+        </div>
+        <div class="steps">
+          <h3>Steps</h3>
+          <ol>
+            <li>Gather all ingredients.</li>
+            <li>
+              Bring a large pot of lightly salted water to a boil. Add ziti
+              pasta, and cook until al dente, about 8 minutes; drain.
+            </li>
+            <li>
+              Meanwhile, brown ground beef and onion in a large skillet over
+              medium heat; stir in spaghetti sauce and simmer for 15 minutes.
+              Preheat the oven to 350 degrees F (175 degrees C). Butter a
+              9x13-inch baking dish.
+            </li>
+            <li>Spread 1/2 of the ziti in the bottom of the prepared dish.</li>
+            <li>Top with Provolone cheese.</li>
+            <li>Top with sour cream.</li>
+            <li>
+              Add 1/2 of the meat sauce, remaining ziti, mozzarella cheese, and
+              remaining meat sauce. Top with grated Parmesan cheese.
+            </li>
+            <li>
+              Bake in the preheated oven until heated through and cheeses have
+              melted, about 30 minutes.
+            </li>
+          </ol>
+        </div>
+      </div>
+
+      <a href="/odin-recipes/index.html" class="recipe-link"
+        >Browse more recipes</a
+      >
+    </div>
+  </body>
+</html>

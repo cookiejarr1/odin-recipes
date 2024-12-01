@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pumpkin Turkey Chili</title>
+    <style>
+      .icon {
+        width: 1.15rem;
+        height: 1.15rem;
+        vertical-align: -0.125em;
+      }
+      .root {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem;
+        background-color: #f1f1f1;
+        border-bottom: 1px solid #ddd;
+      }
+      .container {
+        display: flex;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 4rem;
+        padding-left: 8rem;
+        padding-right: 8rem;
+        margin-top: 6rem;
+        margin-bottom: 4rem;
+        text-align: justify;
+      }
+      .recipe {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        gap: 4rem;
+      }
+      .ingredients {
+        width: 50%;
+        display: flex;
+        justify-content: start;
+        padding-left: 8rem;
+      }
+      .steps {
+        width: 50%;
+        display: block;
+        text-align: justify;
+        padding-right: 8rem;
+      }
+      .card-picture {
+        border-radius: 0.75rem;
+        border-width: 1px;
+        border-color: rgb(31 41 55);
+        border-style: solid;
+      }
+      .recipe-link {
+        color: #1c1c1c;
+        text-decoration-line: none;
+      }
+      .recipe-link:hover {
+        color: #656565;
+        text-decoration-line: underline;
+      }
+
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6,
+      p {
+        margin: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="root">
+      <h1>Pumpkin Turkey Chili</h1>
+      <div class="container">
+        <img
+          class="card-picture"
+          alt="Pumpkin Turkey Chili"
+          src="../assets/pumpkin.webp"
+        />
+        <h4 class="">Description</h4>
+        <p class="">
+          This turkey pumpkin chili is absolutely delicious. It's quick and
+          easy, too!
+        </p>
+      </div>
+      <div class="recipe">
+        <div class="ingredients">
+          <h3>Ingredients</h3>
+          <ul>
+            <li>1 tablespoon vegetable oil</li>
+            <li>1 cup chopped onion</li>
+            <li>½ cup chopped green bell pepper</li>
+            <li>½ cup chopped yellow bell pepper</li>
+            <li>1 clove garlic, minced</li>
+            <li>1 pound ground turkey</li>
+            <li>1 (14.5 ounce) can diced tomatoes</li>
+            <li>2 cups pumpkin puree</li>
+            <li>1 ½ tablespoons chili powder or more to taste</li>
+            <li>½ teaspoon ground black pepper</li>
+            <li>1 dash salt</li>
+            <li>½ cup shredded Cheddar cheese</li>
+            <li>½ cup sour cream</li>
+          </ul>
+        </div>
+        <div class="steps">
+          <h3>Steps</h3>
+          <ol>
+            <li>
+              Heat oil in a large skillet over medium heat. Add onion, green
+              bell pepper, yellow bell pepper, and garlic; cook and stir until
+              tender.
+            </li>
+            <li>Stir in turkey and cook until evenly brown; drain.</li>
+            <li>
+              Mix in tomatoes and pumpkin. Season with chili powder, pepper, and
+              salt. Reduce heat to low, cover, and simmer 15 to 20 minutes.
+              Serve topped with Cheddar cheese and sour cream.
+            </li>
+          </ol>
+        </div>
+      </div>
+
+      <a href="/odin-recipes/index.html" class="recipe-link"
+        >Browse more recipes</a
+      >
+    </div>
+  </body>
+</html>
